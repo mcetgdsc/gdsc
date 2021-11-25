@@ -88,6 +88,38 @@ svg {
     stroke-dasharray: 0 87.5%;
  }
 }
+.hof{
+  font-family: 'PT Mono', monospace;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.hof-inner{
+  justify-content: space-evenly;
+  border: 3px solid;
+  border-radius: 20px;
+  position: relative;
+  padding: 35px 5px;
+  flex-wrap: wrap;
+}
+.hof-name{
+  font-family: Sans-Bold;
+}
+.hof-text{
+  position: relative;
+    z-index: 20;
+    background: white;
+    padding: 2px 20px;
+    font-family: Sans-Bold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+.hof-name-outer{
+  width: 300px;
+  padding: 20px 20px;
+}
 .about{
   font-family: 'PT Mono', monospace;
   text-align: center;
@@ -112,9 +144,6 @@ svg {
     font-size: 15px;
     padding: 30px;
     width: 600px;
-}
-.connect{
-
 }
 .connect-inner{
   column-gap: 20px;
@@ -148,18 +177,9 @@ svg {
   align-self: center;
   color: white;
 }
-.connect h5{
-
-}
-.connect p{
-
-}
 .team{
   text-align: center;
   margin-bottom: 40px;
-}
-.team-inner{
-
 }
 .team-card-outer{
   display: flex;
@@ -295,9 +315,6 @@ svg {
   text-align: center;
   margin-bottom: 40px;
 }
-.blogs-outer{
-
-}
 .blogs-inner{
   display: flex;
   flex-direction: row;
@@ -426,9 +443,6 @@ form{
 .footer-inner{
   width: 300px;
 }
-.quicklinks{
-
-}
 .quicklinks ul{
   list-style: none;
   padding: 0;
@@ -439,9 +453,6 @@ form{
 .quicklinks ul li a{
   text-decoration: none;
   color: black;
-}
-.socials{
-
 }
 .socials a{
   color: black;
@@ -458,9 +469,6 @@ form{
 }
 .socials a:nth-child(4){
   color: #1DA1F2;
-}
-.socials a i{
-
 }
 .bold{
     font-weight: bold;
