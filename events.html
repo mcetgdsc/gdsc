@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="hof.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <title>Events</title>
+  </head>
+  <body>
+    <div class="top" id="Home">
+      <nav data-aos="fade-up" class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav m-auto mt-4">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="index.html"
+                  data-page="home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About" data-page="about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Team" data-page="team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Events" data-page="events">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact" data-page="contact"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Blog" data-page="blog">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <svg data-aos="fade-down" viewBox="0 0 800 600">
+        <symbol id="s-text">
+          <text text-anchor="middle" x="50%" y="35%" class="text--line">
+            MCET
+          </text>
+          <text text-anchor="middle" x="50%" y="68%" class="text--line2">
+            EVENTS
+          </text>
+        </symbol>
+        <g class="g-ants">
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+          <use xlink:href="#s-text" class="text-copy"></use>
+        </g>
+      </svg>
+    </div>
+
+    <div class="events container" id="Events">
+      <h3 data-aos="fade-up">Our <span class="red">Events</span></h3>
+      <div class="events-inner">
+        <div class="event-card-outer">
+          <div data-aos="fade-up" class="event-img">
+            <img src="event-1.jpeg" alt="" srcset="" />
+          </div>
+          <div data-aos="fade-down" class="event-text-outer">
+            <p>Inaugural Event</p>
+            <p>22/9/2021</p>
+            <p>14:00 IST</p>
+            <button class="rsvp"><a href="">RSVP</a></button>
+          </div>
+        </div>
+        <div class="event-card-outer">
+          <div data-aos="fade-up" class="event-img">
+            <img src="event-2.jpg" alt="" srcset="" />
+          </div>
+          <div data-aos="fade-down" class="event-text-outer">
+            <p>Introduction to 30 Days of Google Cloud</p>
+            <p>22/9/2021</p>
+            <p>15:30 IST</p>
+            <button class="rsvp"><a href="">RSVP</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
